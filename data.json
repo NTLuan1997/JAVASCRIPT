@@ -1,0 +1,70 @@
+{
+    "users": [
+        {
+            "email": "john.doe@example.com",
+            "firstName": "John",
+            "gender": "Male",
+            "id": 1,
+            "lastName": "Doe",
+            "password": "P@ssword",
+            "profileURL": "img/male.png",
+            "username": "john",
+            "courses": [
+                {
+                    "id": 1,
+                    "code": "JS",
+                    "name": "JAVASCRIPT",
+                    "thumbnail": "./img/javascript.jpg",
+                    "coin": "250"
+                },
+                {
+                    "id": 2,
+                    "code": "HTML",
+                    "name": "HTML tutorial",
+                    "thumbnail": "./img/html.jpg",
+                    "coin": "250"
+                },
+                {
+                    "id": 3,
+                    "code": "CSS",
+                    "name": "CSS tutorial",
+                    "thumbnail": "./img/css.jpg",
+                    "coin": "250"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "username": "jane",
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "gender": "Female",
+            "password": "P@ssword",
+            "profileURL": "img/female.png",
+            "email": "jane.doe@example.com"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "code": "JS",
+            "name": "JAVASCRIPT",
+            "thumbnail": "./img/javascript.jpg",
+            "coin": "250"
+        },
+        {
+            "id": 2,
+            "code": "HTML",
+            "name": "HTML tutorial",
+            "thumbnail": "./img/html.jpg",
+            "coin": "250"
+        },
+        {
+            "id": 3,
+            "code": "CSS",
+            "name": "CSS tutorial",
+            "thumbnail": "./img/css.jpg",
+            "coin": "250"
+        }
+    ]
+}

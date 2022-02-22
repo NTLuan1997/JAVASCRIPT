@@ -1,0 +1,88 @@
+/* Header */
+header {
+    background-color: red;
+    box-shadow: 0px 0px 3px 1px #0003;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+}
+
+header .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+header .user-icon img {
+    border-radius: 35px;
+    height: 35px;
+    width: 35px;
+}
+
+/* Module */
+.register {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    left: 50%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 100;
+}
+
+.register .register-form {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px 15px;
+    position: relative;
+    width: 450px;
+}
+
+.register .register-form .register--close {
+    color: #909090;
+    font-size: 18px;
+    right: 15px;
+    position: absolute;
+    top: 5px;
+}
+
+.register-form .register--title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.register .register-wrapper {
+    background-color: rgb(0 0 0 / 5%);
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.register.active {
+    display: flex;
+    transition: all .3s ease;
+}
+
+/* END */
+
+.message {
+    display: none;
+}
+
+.valid-feedback,
+.invalid-feedback {
+    display: unset !important;
+}

@@ -1,4 +1,4 @@
-<!-- JAVASCRIPT BASIC
+<!-- JAVASCRIPT BASIC DOCUMENT
 
 1) Giới thiệu một số hàm built-in
     - Console

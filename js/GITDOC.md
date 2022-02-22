@@ -58,6 +58,9 @@
             git push --force origin master
 
 
+    GIT REVERT
+
+
     QUY TRINH LÀM VIỆC VỚI GIT
 
         - git checkout: chuyển sang nhánh mới bắt đầu làm việc.

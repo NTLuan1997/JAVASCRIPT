@@ -164,4 +164,11 @@
         - git pull: về lẫn nữa đảm bảo an toàn.
 
         - git push: tiến hành push local repository lên nhánh của mình và merge vào nhánh chính.
+
+    - How to fix:
+        + OpenSSL SSL_connect: Connection was reset in connection to github.com:443
+        + solution:
+            1) git config --global http.sslBackend "openssl"
+            2) git config --global http.sslCAInfo "C:\Program Files\Git\mingw64\ssl\cert.pem"
+
 -->
